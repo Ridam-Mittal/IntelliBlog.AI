@@ -1,0 +1,139 @@
+@import "tailwindcss";
+
+
+
+/* post-content.css */
+
+.post-content {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  color: #1f2937; /* text-gray-800 */
+  line-height: 1.6;
+}
+
+/* Headings */
+.post-content h1 {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0.67em 0;
+}
+.post-content h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0.75em 0;
+}
+.post-content h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+  margin: 0.83em 0;
+}
+.post-content h4, 
+.post-content h5, 
+.post-content h6 {
+  font-weight: bold;
+  margin: 0.67em 0;
+}
+
+/* Paragraph & blockquote */
+.post-content p {
+  margin: 0.5em 0;
+}
+.post-content blockquote {
+  border-left: 4px solid #d1d5db;
+  padding-left: 1em;
+  color: #4b5563; /* text-gray-600 */
+  margin: 1em 0;
+  font-style: italic;
+}
+
+/* Lists */
+.post-content ul {
+  list-style: disc;
+  padding-left: 1.5em;
+}
+.post-content ol {
+  list-style: decimal;
+  padding-left: 1.5em;
+}
+
+/* Links */
+.post-content a {
+  color: #2563eb; /* blue-600 */
+  text-decoration: underline;
+}
+.post-content a:hover {
+  color: #1e40af; /* blue-800 */
+}
+
+/* Tables */
+.post-content table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.post-content th, 
+.post-content td {
+  border: 1px solid #d1d5db; /* gray-300 */
+  padding: 8px;
+  text-align: left;
+}
+.post-content th {
+  background-color: #f3f4f6; /* gray-100 */
+}
+
+/* Images */
+.post-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Code blocks & inline code */
+.post-content pre {
+  background-color: #f9fafb; /* gray-50 */
+  padding: 1em;
+  overflow-x: auto;
+  border-radius: 4px;
+}
+.post-content code {
+  background-color: #f3f4f6; /* gray-100 */
+  padding: 0.2em 0.4em;
+  border-radius: 3px;
+  font-family: monospace;
+}
+
+/* Text alignment */
+.post-content .mce-text-center {
+  text-align: center;
+}
+.post-content .mce-text-right {
+  text-align: right;
+}
+.post-content .mce-text-left {
+  text-align: left;
+}
+.post-content .mce-text-justify {
+  text-align: justify;
+}
+
+/* Font size overrides from TinyMCE */
+.post-content .mce-font-size-8pt { font-size: 8pt; }
+.post-content .mce-font-size-10pt { font-size: 10pt; }
+.post-content .mce-font-size-12pt { font-size: 12pt; }
+.post-content .mce-font-size-14pt { font-size: 14pt; }
+.post-content .mce-font-size-18pt { font-size: 18pt; }
+.post-content .mce-font-size-24pt { font-size: 24pt; }
+.post-content .mce-font-size-36pt { font-size: 36pt; }
+
+/* Colored text & background from TinyMCE */
+.post-content span[style*="color"] {
+  color: inherit; /* let inline style from editor take over */
+}
+.post-content span[style*="background-color"] {
+  background-color: inherit; /* let inline style from editor take over */
+}
+
+/* Horizontal rule */
+.post-content hr {
+  border: none;
+  border-top: 1px solid #d1d5db;
+  margin: 1.5em 0;
+}
